@@ -24,7 +24,7 @@ class Customer {
 
         while (enum_rentals.hasMoreElements()) {
             Rental each = (Rental) enum_rentals.nextElement();
-            frequentRenterPoints += each.getFrequentRenterPoints();
+            frequentRenterPoints = each.getFrequentRenterPoints();
 
 
             //show figures for this rental
