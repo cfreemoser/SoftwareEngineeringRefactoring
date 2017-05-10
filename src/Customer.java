@@ -14,6 +14,7 @@ class Customer {
     public String getName (){
         return name;
     };
+
     public String statement() {
         double totalAmount = 0;
         int frequentRenterPoints = 0;
